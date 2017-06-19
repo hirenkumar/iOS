@@ -13,6 +13,12 @@
 		99C01B011A53BFEC00A050B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B001A53BFEC00A050B1 /* Images.xcassets */; };
 		99C01B041A53BFEC00A050B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B021A53BFEC00A050B1 /* LaunchScreen.xib */; };
 		99C01B101A53BFEC00A050B1 /* FruitsDemoSwtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C01B0F1A53BFEC00A050B1 /* FruitsDemoSwtTests.swift */; };
+		99C01B1E1A53C29C00A050B1 /* Apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B1A1A53C29C00A050B1 /* Apple.jpg */; };
+		99C01B1F1A53C29C00A050B1 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B1B1A53C29C00A050B1 /* banana.jpg */; };
+		99C01B201A53C29C00A050B1 /* Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B1C1A53C29C00A050B1 /* Orange.jpg */; };
+		99C01B211A53C29C00A050B1 /* straberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C01B1D1A53C29C00A050B1 /* straberry.jpg */; };
+		99C01B281A53C8C500A050B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C01B261A53C8C500A050B1 /* DetailViewController.swift */; };
+		99C01B291A53C8C500A050B1 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C01B271A53C8C500A050B1 /* SampleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		99C01B091A53BFEC00A050B1 /* FruitsDemoSwtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitsDemoSwtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C01B0E1A53BFEC00A050B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C01B0F1A53BFEC00A050B1 /* FruitsDemoSwtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsDemoSwtTests.swift; sourceTree = "<group>"; };
+		99C01B1A1A53C29C00A050B1 /* Apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpg; sourceTree = "<group>"; };
+		99C01B1B1A53C29C00A050B1 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		99C01B1C1A53C29C00A050B1 /* Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange.jpg; sourceTree = "<group>"; };
+		99C01B1D1A53C29C00A050B1 /* straberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = straberry.jpg; sourceTree = "<group>"; };
+		99C01B261A53C8C500A050B1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		99C01B271A53C8C500A050B1 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,11 @@
 		99C01AF61A53BFEC00A050B1 /* FruitsDemoSwt */ = {
 			isa = PBXGroup;
 			children = (
+				99C01B191A53C29C00A050B1 /* Images */,
 				99C01AF91A53BFEC00A050B1 /* AppDelegate.swift */,
 				99C01AFB1A53BFEC00A050B1 /* ViewController.swift */,
+				99C01B261A53C8C500A050B1 /* DetailViewController.swift */,
+				99C01B271A53C8C500A050B1 /* SampleTableViewCell.swift */,
 				99C01AFD1A53BFEC00A050B1 /* Main.storyboard */,
 				99C01B001A53BFEC00A050B1 /* Images.xcassets */,
 				99C01B021A53BFEC00A050B1 /* LaunchScreen.xib */,
@@ -110,6 +125,17 @@
 				99C01B0E1A53BFEC00A050B1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99C01B191A53C29C00A050B1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99C01B1A1A53C29C00A050B1 /* Apple.jpg */,
+				99C01B1B1A53C29C00A050B1 /* banana.jpg */,
+				99C01B1C1A53C29C00A050B1 /* Orange.jpg */,
+				99C01B1D1A53C29C00A050B1 /* straberry.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C01AFF1A53BFEC00A050B1 /* Main.storyboard in Resources */,
+				99C01B201A53C29C00A050B1 /* Orange.jpg in Resources */,
 				99C01B041A53BFEC00A050B1 /* LaunchScreen.xib in Resources */,
+				99C01B211A53C29C00A050B1 /* straberry.jpg in Resources */,
+				99C01B1E1A53C29C00A050B1 /* Apple.jpg in Resources */,
 				99C01B011A53BFEC00A050B1 /* Images.xcassets in Resources */,
+				99C01B1F1A53C29C00A050B1 /* banana.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C01B281A53C8C500A050B1 /* DetailViewController.swift in Sources */,
+				99C01B291A53C8C500A050B1 /* SampleTableViewCell.swift in Sources */,
 				99C01AFC1A53BFEC00A050B1 /* ViewController.swift in Sources */,
 				99C01AFA1A53BFEC00A050B1 /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +373,7 @@
 				INFOPLIST_FILE = FruitsDemoSwt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +384,7 @@
 				INFOPLIST_FILE = FruitsDemoSwt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
